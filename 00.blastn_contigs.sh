@@ -1,0 +1,1 @@
+ blastn -query all_contigs.fna -db ../../DATABASE/ResFinder_20250402/resfinder20250402 -out blastn_allcontigs_resfinder20250402.txt -outfmt '6 std slength' -perc_identity 80 -culling_limit 1 -max_target_seqs 100 -num_threads 16
